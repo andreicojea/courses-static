@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.topbar {
+  background: #3044ad;
+  color: white;
+  height: 40px;
+  padding: 5px 20px;
+}
+
+.topbar-title {
+  float: left;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.topbar a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.topbar a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.topbar a.active {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.topbar-links {
+  float: right;
+}
+
+.container {
+  padding: 30px;
+}
+
+.course-card {
+  display: inline-block;
+  width: 300px;
+  box-shadow: 1px 3px 10px black;
+  border-radius: 10px;
+  overflow: hidden;
+  /* margin-right: 10px;
+  margin-bottom: 20px; */
+  margin: 0 10px 20px 0;
+}
+
+.course-card-image {
+  width: 100%;
+}
+
+.course-card-main {
+  padding: 8px 10px;
+}
+
+.course-card-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.course-card-instructor {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.course-card-rating {
+  color: gold;
+}
+
+.course-card-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.course-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
